@@ -11,6 +11,6 @@ Linux is way better than Windows. Most of the DevOps tools support only Linux. L
 
 Join us in this power Bootcamp 🙌
 
-Before you ask we would be providing certificates and digital swags to all those who can deploy the VM. Join the Chat on [LinkedIN](https://www.linkedin.com/events/6824242363796471808/about/) or [Telegram](https://t.me/joinchat/FjVuSFMYZNBkMTM9) 
+Before you ask we would be providing certificates and digital swags to all those who can deploy the VM. Join the Chat on [LinkedIN](https://www.linkedin.com/events/useazureasyourpersonalcomputerf6824242363796471808/) or [Telegram](https://t.me/joinchat/FjVuSFMYZNBkMTM9) 
 
 More details and Instructions would be added here:
