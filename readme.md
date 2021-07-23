@@ -1,4 +1,4 @@
-## Use Azure as your personal computer ft. VSCode: August 29th, 1PM IST
+## Use Azure as your personal computer ft. VSCode: August 29th, 11 AM IST
 
 [Registeration Link](https://forms.office.com/r/VGJwE5BYqd)
 
