@@ -1,6 +1,6 @@
 ## Use Azure as your personal computer ft. VSCode: August 29th, 11 AM IST
 
-Show some ❤️ and ⭐ this Repository and follow [hrittikhere](https://github.com/hrittikhere)
+Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.com/hrittikhere)
 
 ---
 [Registeration Link](https://forms.office.com/r/VGJwE5BYqd)
@@ -10,7 +10,7 @@ A hands-on session where you would experience creating a virtual machine from sc
 As the prerequisites are clear we would go on to create a Linux VM on Azure with help of asymmetric encryption and then connect it with the loved VSCode. By the end, you would be able to run your workloads directly on Azure :)
 
 Why would you like to run workloads on Linux?
-Linux is way better than Windows. Most of the DevOps tools support only Linux. Last but not the least, 90 % of servers are Linux :)
+Linux is way better than Windows. Most of the DevOps tools support only Linux. Last but not the least, 90% of servers are Linux :)
 
 Join us in this power Bootcamp 🙌
 
@@ -27,5 +27,5 @@ Before you ask we would be providing certificates and digital swags to all those
 ---
 
 ## More details and Instructions:
-1. Have an Azure Subscription or don't forget to fill the form for In-event vouchers.
+1. Have an Azure Subscription or don't forget to fill the form for In-event vouchers. In-event vouchers are just for students and strictly probhited for professionals. 
 2. 
