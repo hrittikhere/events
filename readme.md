@@ -13,4 +13,15 @@ Join us in this power Bootcamp 🙌
 
 Before you ask we would be providing certificates and digital swags to all those who can deploy the VM. Join the Chat on [LinkedIN](https://www.linkedin.com/events/useazureasyourpersonalcomputerf6824242363796471808/) or [Telegram](https://t.me/joinchat/FjVuSFMYZNBkMTM9) 
 
+---
+
+## Prerequisite Installation for Windows OS
+1. [Visual Studio Code](https://code.visualstudio.com/download) 
+2. [PuTTY MSI (‘Windows Installer’)
+](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) Trubleshoot guide [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-32bit-64bit)
+3. [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+4. [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+---
+
 More details and Instructions would be added here:
+
