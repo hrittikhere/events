@@ -27,5 +27,5 @@ Before you ask we would be providing certificates and digital swags to all those
 ---
 
 ## More details and Instructions:
-1. Have an Azure Subscription or don't forget to fill the form for In-event vouchers. In-event vouchers are just for students and strictly probhited for professionals. 
-2. 
+1. Have an Azure Subscription or don't forget to fill the form for In-event vouchers. In-event vouchers are just for students and strictly probhited for professionals. [Instructions to Reedem ❤️](https://github.com/hrittikhere/events/blob/main/Azure_Verification.md)
+2. Don't forget to fill the feedback link for recordings and certificates. See yaa! 👋
