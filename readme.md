@@ -1,5 +1,8 @@
 ## Use Azure as your personal computer ft. VSCode: August 29th, 11 AM IST
 
+Show some ❤️ and ⭐ this Repository and follow [hrittikhere](https://github.com/hrittikhere)
+
+---
 [Registeration Link](https://forms.office.com/r/VGJwE5BYqd)
 
 A hands-on session where you would experience creating a virtual machine from scratch. Now, we would start by clearing your basics about cloud computing first. So, no prerequisites to attend this session.
@@ -23,5 +26,6 @@ Before you ask we would be providing certificates and digital swags to all those
 4. [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 ---
 
-More details and Instructions would be added here:
-
+## More details and Instructions:
+1. Have an Azure Subscription or don't forget to fill the form for In-event vouchers.
+2. 
