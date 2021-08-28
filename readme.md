@@ -1,4 +1,4 @@
-## Use Azure as your personal computer ft. VSCode: August 29th, 11 AM IST
+## Use Azure as your personal computer ft. VSCode: August 29th, 10:30 AM IST
 
 Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.com/hrittikhere)
 
