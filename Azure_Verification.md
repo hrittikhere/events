@@ -15,6 +15,6 @@ Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.co
 
 ![Enter Code](azure_verification/Azure3.png "Enter Code")
 
-5. Welcome to Azure Portal! ⭐
+5. Welcome to [Azure Portal!](https://portal.azure.com/) ⭐
 
 
