@@ -3,7 +3,7 @@
 Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.com/hrittikhere)
 
 ---
-[Registeration Link](https://forms.office.com/r/VGJwE5BYqd)
+[Registeration Link](https://forms.office.com/r/VGJwE5BYqd) || [Join Here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjI1Nzg2MTYtMTZiMy00ZGMzLWI2NTMtNmQ0MGExODBlODgw%40thread.v2/0?context=%7b%22Tid%22%3a%2284c31ca0-ac3b-4eae-ad11-519d80233e6f%22%2c%22Oid%22%3a%222b1e815e-e40c-4c7b-b5d8-31b72606f2cb%22%7d) 👈👈👈
 
 A hands-on session where you would experience creating a virtual machine from scratch. Now, we would start by clearing your basics about cloud computing first. So, no prerequisites to attend this session.
 
@@ -40,3 +40,4 @@ Key Type:
 ## More details and Instructions:
 1. Have an Azure Subscription or don't forget to fill the form for In-event vouchers. In-event vouchers are just for students and strictly probhited for professionals. [Instructions to Reedem ❤️](https://github.com/hrittikhere/events/blob/main/Azure_Verification.md)
 2. Don't forget to fill the feedback link for recordings and certificates. See yaa! 👋
+
