@@ -10,7 +10,7 @@ A hands-on session where you would experience creating a virtual machine from sc
 As the prerequisites are clear we would go on to create a Linux VM on Azure with help of asymmetric encryption and then connect it with the loved VSCode. By the end, you would be able to run your workloads directly on Azure :)
 
 Why would you like to run workloads on Linux?
-Linux is way better than Windows. Most of the DevOps tools support only Linux. Last but not the least, 90% of servers are Linux :)
+Linux is way better than Windows. Most of the [DevOps](https://www.p3r.one/what-is-devops/) tools support only Linux. Last but not the least, 90% of servers are Linux :)
 
 Join us in this power Bootcamp 🙌
 
@@ -24,6 +24,17 @@ Before you ask we would be providing certificates and digital swags to all those
 ](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) Trubleshoot guide [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-32bit-64bit)
 3. [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 4. [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+
+
+Config for VSCode:
+```
+Host input_server
+  User input_id
+  HostName input_IP
+  IdentityFile ~/.ssh/input_key
+```
+Key Type: 
+<code>openssh ssh-2 private key (new format)</code>
 ---
 
 ## More details and Instructions:
