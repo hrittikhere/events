@@ -41,3 +41,13 @@ Key Type:
 1. Have an Azure Subscription or don't forget to fill the form for In-event vouchers. In-event vouchers are just for students and strictly probhited for professionals. [Instructions to Reedem ❤️](https://github.com/hrittikhere/events/blob/main/Azure_Verification.md)
 2. Don't forget to fill the feedback link for recordings and certificates. See yaa! 👋
 
+
+
+# Summary
+1. 900 Registered Participants with more 4.9+ ratings on Exiting Feedback
+2. Recordings [here.](https://www.youtube.com/watch?v=YjgzByOr1Qk) 
+
+Linkedin Event:
+
+![image](https://user-images.githubusercontent.com/67012359/132587730-af907b13-0425-46f6-ae93-812b9cc6516e.png)
+
