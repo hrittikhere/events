@@ -31,3 +31,8 @@ Key Type:
 
 ## More details and Instructions:
 1. Have an Active Azure Subscription for the hands on! 
+2. Star this Repo and Follow for Updates
+3. Please provide you valuable Feedback [here](https://forms.office.com/r/gZvY2gGBpQ)
+
+
+Slides will be [here](https://docs.google.com/presentation/d/1oqutrdW8ujNLTNeelOhG7TqhGZIj4HFm8JPS4C8USx4/edit?usp=sharing)
