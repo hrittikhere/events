@@ -1,4 +1,4 @@
-# CLOUD SUMMIT 2021 (Student Track): Use Azure as your personal computer ft. VSCode
+# CLOUD SUMMIT 2021 (Student Track): [Use Azure as your personal computer ft. VSCode](https://azuresummit.live/speaker/hrittik-roy/)
 Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.com/hrittikhere)
 
 ---
