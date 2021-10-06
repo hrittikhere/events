@@ -26,3 +26,6 @@ People who want to learn basics of Git and GitHub but not sure where to start. I
 ## Swags
 1. Digital Swags from Microsoft
 1. Microsoft Learn Student Ambassadors Certificates for everyone who submits a PR and fills the feedback form distributed at the end of the event!
+
+# Giveaways
+[Portainer](https://portainer.io/) is sponsoring 5 [KubeCon + CloudNativeCon Virtual Passes](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/) worth 75$ each for 5 lucky attendees. Register today and be part in this awesome giveaway! 
