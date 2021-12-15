@@ -1,31 +1,28 @@
-# Workshop on Git and GitHub: Basics Terminology, JIS University
+# Use Azure as your personal VPN (Virtual private network)
 
 Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.com/hrittikhere)
 
 ## Schedule
-* Location: [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTgwYzljYWQtMGRlMy00MWIxLTg5MDgtYTQ3ZTNhNGYyM2Fm%40thread.v2/0?context=%7b%22Tid%22%3a%2284c31ca0-ac3b-4eae-ad11-519d80233e6f%22%2c%22Oid%22%3a%222b1e815e-e40c-4c7b-b5d8-31b72606f2cb%22%7d)
-* Date: 9th October, 2021
-* Time: 12pm IST to 1pm IST
-* Joining link would be mailed to you by Friday Evening. Please [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=oBzDhDusrk6tEVGdgCM-b16BHisM5HtMtdgxtyYG8stUNThIUk5VV0szM1dCWEhRQ1paMjA3U0VDOC4u)
-
+* Location: Microsoft Teams
+* Date: January 30th, 2022
+* Time: 11am IST to 12:30pm IST
+* Joining link would be mailed to you by Friday Evening. Please [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=oBzDhDusrk6tEVGdgCM-b16BHisM5HtMtdgxtyYG8stUNkRETTdUM1ZLVE1LMVdJS1I4TUJMUEZDUC4u)
 
 ## Agenda
-1. Introduction to Git
-1. Git Basic Terminology
-1. Introduction to GitHub/ Account Creation
-1. Forking a Repository
-1. Editing Readme Files
-1. Submitting Pull Requests
+1. Introduction to VPN
+1. Why use VPN?
+1. Why use self-hosted VPN?
+1. Create a self-hosted VPN 
 
 ## Prerequisite
-None
+1. Azure Trial Subscription/Student Subscription
+1. [PuTTY MSI (‘Windows Installer’)
+](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to SSH into your VM. Trubleshoot guide [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-32bit-64bit)
+
 
 ## Target Audience 
-People who want to learn basics of Git and GitHub but not sure where to start. If you haven't heard the terms you're welcome too!
+People who want to learn basics of VPN or want to self-host it. If you haven't heard the terms you're welcome too!
 
 ## Swags
 1. Digital Swags from Microsoft
-1. Microsoft Learn Student Ambassadors Certificates for everyone who submits a PR and fills the feedback form distributed at the end of the event!
-
-# Giveaways
-[Portainer](https://portainer.io/) is sponsoring 5 [KubeCon + CloudNativeCon Virtual Passes](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/) worth 75$ each for 5 lucky attendees. Register today and be part in this awesome giveaway! 
+1. Microsoft Learn Student Ambassadors Certificates for everyone who submits the feedback form. 
