@@ -16,9 +16,6 @@ Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.co
 
 ## Prerequisite
 1. Azure Trial Subscription/Student Subscription
-1. [PuTTY MSI (‘Windows Installer’)
-](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to SSH into your VM. Trubleshoot guide [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/faq.html#faq-32bit-64bit)
-
 
 ## Target Audience 
 People who want to learn basics of VPN or want to self-host it. If you haven't heard the terms you're welcome too!
