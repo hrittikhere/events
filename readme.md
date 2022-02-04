@@ -21,7 +21,7 @@ Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.co
 
 1. Enviroment Variables for `docker-compose`:
 
-```
+```bash
 # Drone Server configuration
 DRONE_SERVER_HOST=< hostname>
 DRONE_SERVER_PROTO=http
@@ -44,8 +44,10 @@ Create a shared secret to authenticate communication between runners and your ce
 openssl rand -hex 16
 ```
 
-3. Docker-compose.yml
+3. `Docker-compose.yml` for Servers and Runners:
+
 ```yaml
+
 version: '3.8'
 services:
   drone:
@@ -70,9 +72,10 @@ services:
       - '/etc/localtime:/etc/localtime:ro'
     env_file:
       - .env
+      
 ```
 
-4. `.drone.yml` for pipelines
+4. `.drone.yml` for pipelines:
 
 ```yaml
 kind: pipeline
