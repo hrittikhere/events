@@ -1,25 +1,105 @@
-# Use Azure as your personal VPN (Virtual private network)
+# Live Event: Continuous Integration with DroneCI
+
 
 Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.com/hrittikhere)
 
 ## Schedule
-* Location: Microsoft Teams
-* Date: January 30th, 2022
-* Time: 11am IST to 12:30pm IST
-* Joining link would be mailed to you by Friday Evening. Please [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=oBzDhDusrk6tEVGdgCM-b16BHisM5HtMtdgxtyYG8stUNkRETTdUM1ZLVE1LMVdJS1I4TUJMUEZDUC4u)
+* Location: LinkedIn Live
+* Date: Feb 4 2022, Fri
+* Time: 9:00 pm IST to 10:30 PM IST
+* Joining [here](https://t.co/fERBfLb5YU)
 
 ## Agenda
-1. Introduction to VPN
-1. Why use VPN?
-1. Why use self-hosted VPN?
-1. Create a self-hosted VPN 
+1. what is continuous integration?
+1. why is it required?
+1. how to set up a self-hosted CI with Drone Community Edition? 
 
 ## Prerequisite
-1. Azure Trial Subscription/Student Subscription
+1. Public IP on your local Machine via [ngrok](https://ngrok.com) or Public VM with HTTP(80) port exposed. Use [Azure](azure.com) or other Cloud Providers for a Public VM.
 
-## Target Audience 
-People who want to learn basics of VPN or want to self-host it. If you haven't heard the terms you're welcome too!
+## Resources
 
-## Swags
-1. Digital Swags from Microsoft
-1. Microsoft Learn Student Ambassadors Certificates for everyone who submits the feedback form. 
+1. Enviroment Variables for `docker-compose`:
+```
+# Drone Server configuration
+DRONE_SERVER_HOST=< hostname>
+DRONE_SERVER_PROTO=http
+DRONE_GITHUB_CLIENT_ID=<github client ID>
+DRONE_GITHUB_CLIENT_SECRET=<github secret>
+DRONE_RPC_SECRET=<Drone secret>
+DRONE_TLS_AUTOCERT=false
+DRONE_USER_CREATE=username:<github_username>,admin:true
+
+# Runners configuration
+DRONE_RPC_HOST=< hostname>
+DRONE_RPC_PROTO=http
+DRONE_RUNNER_NAME="Drone.io_runner" # It CANNOT contain spaces!
+```
+2. `RPC_SECRET`
+Create a shared secret to authenticate communication between runners and your central Drone server. You can use openssl to generate a shared secret:
+
+```bash
+openssl rand -hex 16
+```
+
+3.. Docker-compose.yml
+```yaml
+version: '3.8'
+services:
+  drone:
+    image: 'drone/drone:2'
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./volumes/drone:/data"
+      - '/etc/localtime:/etc/localtime:ro'
+    restart: always
+    ports:
+      - 80:80
+    env_file:
+    - .env
+  drone-agent:
+    image: drone/drone-runner-docker:1
+    command: agent
+    restart: always
+    depends_on:
+      - drone
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - '/etc/localtime:/etc/localtime:ro'
+    env_file:
+      - .env
+```
+
+4. `.drone.yml` for pipelines
+
+```yaml
+kind: pipeline
+type: docker
+name: default
+
+workspace:
+  base: /go
+  path: src/github.com/hrittikhere/reponame/main
+
+steps:
+- name: test
+  image: golang
+  commands:
+  - go mod init
+  - go get
+  - go test
+
+- name: docker  
+  image: plugins/docker
+  settings:
+    # registry: docker.io
+    repo: username/name_of_your_repo
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
+    tags: 
+      - latest
+```
+
+Read more about other langauges and ways to deploy your Drone CI [here](https://docs.drone.io/).
