@@ -7,12 +7,12 @@ Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.co
 * Location: LinkedIn Live
 * Date: Feb 4 2022, Fri
 * Time: 9:00 pm IST to 10:30 PM IST
-* Joining [here](https://t.co/fERBfLb5YU)
+* Join [here](https://t.co/fERBfLb5YU)
 
 ## Agenda
-1. what is continuous integration?
-1. why is it required?
-1. how to set up a self-hosted CI with Drone Community Edition? 
+1. What is continuous integration?
+1. Why is it required?
+1. How to set up a self-hosted CI with Drone Community Edition? 
 
 ## Prerequisite
 1. Public IP on your local Machine via [ngrok](https://ngrok.com) or Public VM with HTTP(80) port exposed. Use [Azure](azure.com) or other Cloud Providers for a Public VM.
@@ -20,6 +20,7 @@ Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.co
 ## Resources
 
 1. Enviroment Variables for `docker-compose`:
+
 ```
 # Drone Server configuration
 DRONE_SERVER_HOST=< hostname>
@@ -35,6 +36,7 @@ DRONE_RPC_HOST=< hostname>
 DRONE_RPC_PROTO=http
 DRONE_RUNNER_NAME="Drone.io_runner" # It CANNOT contain spaces!
 ```
+
 2. `RPC_SECRET`
 Create a shared secret to authenticate communication between runners and your central Drone server. You can use openssl to generate a shared secret:
 
@@ -42,7 +44,7 @@ Create a shared secret to authenticate communication between runners and your ce
 openssl rand -hex 16
 ```
 
-3.. Docker-compose.yml
+3. Docker-compose.yml
 ```yaml
 version: '3.8'
 services:
@@ -102,4 +104,4 @@ steps:
       - latest
 ```
 
-Read more about other langauges and ways to deploy your Drone CI [here](https://docs.drone.io/).
+Read more about Drone CI [here](https://docs.drone.io/).
