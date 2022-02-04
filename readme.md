@@ -16,8 +16,21 @@ Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.co
 
 ## Prerequisite
 1. Public IP on your local Machine via [ngrok](https://ngrok.com) or Public VM with HTTP(80) port exposed. Use [Azure](azure.com) or other Cloud Providers for a Public VM.
+1. GitHub Account with your Repositories 
+1. docker-compose 
 
 ## Resources
+
+### Script to Install Docker, `docker-compose`:
+
+The [following script](https://gist.github.com/hrittikhere/3117497bfaf1736a144b0a3d9463c807) would work on Ubuntu and you can pipe it to bash to install docker and compose:
+
+```bash
+curl https://gist.githubusercontent.com/hrittikhere/3117497bfaf1736a144b0a3d9463c807/raw/07f6dc8c7f3c4aad093d4075e5ebcca106304c72/pavan.sh | bash
+```
+
+
+
 
 ### Enviroment Variables for `docker-compose`:
 
