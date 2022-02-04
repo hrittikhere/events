@@ -19,7 +19,7 @@ Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.co
 
 ## Resources
 
-1. Enviroment Variables for `docker-compose`:
+### Enviroment Variables for `docker-compose`:
 
 ```bash
 # Drone Server configuration
@@ -37,14 +37,14 @@ DRONE_RPC_PROTO=http
 DRONE_RUNNER_NAME="Drone.io_runner" # It CANNOT contain spaces!
 ```
 
-2. `RPC_SECRET`
+### `RPC_SECRET`
 Create a shared secret to authenticate communication between runners and your central Drone server. You can use openssl to generate a shared secret:
 
 ```bash
 openssl rand -hex 16
 ```
 
-3. `Docker-compose.yml` for Servers and Runners:
+### `Docker-compose.yml` for Servers and Runners:
 
 ```yaml
 
@@ -72,10 +72,10 @@ services:
       - '/etc/localtime:/etc/localtime:ro'
     env_file:
       - .env
-      
+
 ```
 
-4. `.drone.yml` for pipelines:
+### `.drone.yml` for pipelines:
 
 ```yaml
 kind: pipeline
