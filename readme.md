@@ -12,7 +12,7 @@ Show some ❤️: ⭐ this Repository and follow [hrittikhere](https://github.co
 ## Agenda
 1. What is continuous integration?
 1. Why is it required?
-1. How to set up a self-hosted CI with Drone Community Edition? 
+1. How to set up a self-hosted CI with Drone CI? 
 
 ## Prerequisite
 1. Public IP on your local Machine via [ngrok](https://ngrok.com) or Public VM with HTTP(80) port exposed. Use [Azure](azure.com) or other Cloud Providers for a Public VM.
